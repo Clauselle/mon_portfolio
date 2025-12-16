@@ -11,7 +11,7 @@ const About = () =>{
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.5 }}
-                    className="w-full lg:w-1/2 lg:p-8">
+                    className="w-full lg:w-1/2 lg:p-4">
                     <div className="flex items-center justify-center">
                         <img className="rounded-2xl" src={profilePic} alt="about"/>
                     </div>
@@ -20,9 +20,9 @@ const About = () =>{
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 0.5 }}
-                    className="w-full lg:w-1/2">
+                    className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 max-with-xl py-6">{ABOUT_TEXT}</p>
+                        <p className="mt-10 max-with-xl">{ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
             </div>

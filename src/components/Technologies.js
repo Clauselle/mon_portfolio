@@ -1,8 +1,12 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMysql } from "react-icons/si";
+import { SiMysql,
+         SiLaravel,
+         SiPython,
+         SiPhp,
+         SiJavascript,
+         SiTailwindcss,
+} from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { SiLaravel } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 
@@ -36,7 +40,7 @@ const Technologies = () =>{
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandNextjs className="text-7xl" />
+                    <SiPython className="text-7xl" />
                 </motion.div>
                 <motion.div 
                  variants={iconVariants(5)}
@@ -44,6 +48,13 @@ const Technologies = () =>{
                  animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiMysql className="text-7xl text-blue-400" />
+                </motion.div>
+                <motion.div 
+                 variants={iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiPhp className="text-7xl text-blue-700" />
                 </motion.div>
                 <motion.div 
                  variants={iconVariants(2)}
@@ -56,8 +67,15 @@ const Technologies = () =>{
                  variants={iconVariants(6)}
                  initial="initial"
                  animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaNodeJs className="text-7xl text-green-500" />
+                </motion.div>
+                <motion.div 
+                 variants={iconVariants(6)}
+                 initial="initial"
+                 animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiJavascript className="text-7xl text-yellow-400" />
                 </motion.div>
                 <motion.div 
                  variants={iconVariants(4)}
@@ -65,6 +83,13 @@ const Technologies = () =>{
                  animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
+                </motion.div>
+                <motion.div 
+                 variants={iconVariants(6)}
+                 initial="initial"
+                 animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiTailwindcss className="text-7xl text-blue-500" />
                 </motion.div>
             </div>
         </div>

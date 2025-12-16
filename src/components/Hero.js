@@ -24,7 +24,7 @@ const Hero = () =>{
                     <motion.span variants={container(0.5)}
                         initial="hidden"
                         animate="visible"
-                    className="bg-gradient-to-r from-pink-400 via-slate-400 to-purple-600 bg-clip-text text-3xl tracking-tight text-transparent">Full-Stack Developer Specializing in Secure Web Apps - Laravel · React · Node.js · Next.js</motion.span>
+                    className="bg-gradient-to-r from-purple-500 via-slate-400 to-pink-600 bg-clip-text text-3xl tracking-tight text-transparent">Full-Stack Developer · Building Secure, Scalable Web Applications</motion.span>
                     <motion.p variants={container()}
                         initial="hidden"
                         animate="visible"

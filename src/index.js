@@ -14,11 +14,23 @@ root.render(
     <App />
   </React.StrictMode>
 );
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web application. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web application. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Vue.js, as well as back-end technologies like Node.js, PHP and Python.`;
 
-export const ABOUT_TEXT = `I am a Master's student in Computer Science, specializing in Software Engineering and Databases. Passionate about building high-performance, secure web applications, I have led and contributed to numerous academic and personal projects. Known for my rigor, creativity, and ability to work independently, I thrive in dynamic environments where I can continuously learn and make a meaningful impact.`;
+export const ABOUT_TEXT = `
+I am a Software Engineer with a strong background in web development and database systems.
+I specialize in designing and building scalable, secure, and high-performance applications.
+Through academic, freelance, and personal projects, I have gained hands-on experience across the full development lifecycle, from system design to deployment.
+Detail-oriented and self-driven, I thrive in fast-paced environments where continuous learning, problem-solving, and delivering real business value are key.
+`;
 
 export const EXPERIENCE = [
+  {
+  year: "2025 | Final Year Project",
+  role: "Predictive Data Processing Pipeline for Inventory Management",
+  description: `Web application designed to predict future inventory levels based on historical data using machine learning algorithms.`,
+  technologies: ["Python", "React", "TailwindCSS", "Linear Regression", "LightGBM", "XGBoost"],
+    link:"https://www.predistock.com",
+  },
   {
     year: "2025 | Academic Projects",
     role: "Bank Transfer Monitoring",
@@ -38,7 +50,7 @@ export const EXPERIENCE = [
     technologies: ["React Native", "Node.js", "PostgreSQL"],
   },
   {
-    year: "2025 | Personal Projects",
+    year: "Personal Projects",
     role: "Pharmacy Management",
     description: `Web application for pharmacy management.`,
     technologies: ["PHP", "Laravel", "MySQL"],
@@ -68,7 +80,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-    address: "Lot IIS 78 DC Bis Anjanahary IIS Antananarivo",
+    address: "78 DC Bis Anjanahary IIS Antananarivo Madagascar",
     phone: "+261 34 81 403 70  | +261 32 21 922 36",
     email: "clauselleratovoarisoa@gmail.com",
     in: "linkedin.com/in/clauselle-ratovoarisoa",
