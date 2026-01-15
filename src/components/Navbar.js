@@ -8,9 +8,9 @@ const Navbar = () =>{
             
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <p><a href="linkedin.com/in/clauselle-ratovoarisoa" className="border-b"><FaLinkedin /></a></p>
-            <p><a href="github.com/Clauselle" className="border-b"><FaGithub /></a></p>
-            <p><a href="clauselleratovoarisoa@gmail.com" className="border-b"><FaEnvelope /></a></p>
+            <p><a href="https://www.linkedin.com/in/clauselle-ratovoarisoa-834013283/" className="border-b" aria-label="Linkedin" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></p>
+            <p><a href="https://github.com/Clauselle" className="border-b" target="_blank" aria-label="GitHub" rel="noopener noreferrer"><FaGithub /></a></p>
+            <p><a href="mailto:clauselleratovoarisoa@gmail.com" className="border-b" aria-label="Mail"><FaEnvelope /></a></p>
         </div>
     </nav>;
 };

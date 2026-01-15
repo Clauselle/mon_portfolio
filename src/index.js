@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import project1 from "./assets/projects/b.jpg";
+import project1 from "./assets/projects/photo1.jpg";
 //import project2 from "./assets/projects/l.jpg";
 //import project3 from "./assets/projects/j.jpg";
 
@@ -19,29 +19,46 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 export const ABOUT_TEXT = `
 I am a Software Engineer with a strong background in web development and database systems.
 I specialize in designing and building scalable, secure, and high-performance applications.
-Through academic, freelance, and personal projects, I have gained hands-on experience across the full development lifecycle, from system design to deployment.
+Through academic and personal projects, I have gained hands-on experience across the full development lifecycle, from system design to deployment.
 Detail-oriented and self-driven, I thrive in fast-paced environments where continuous learning, problem-solving, and delivering real business value are key.
 `;
 
 export const EXPERIENCE = [
   {
-  year: "2025 | Final Year Project",
-  role: "Predictive Data Processing Pipeline for Inventory Management",
-  description: `Web application designed to predict future inventory levels based on historical data using machine learning algorithms.`,
-  technologies: ["Python", "React", "TailwindCSS", "Linear Regression", "LightGBM", "XGBoost"],
-    link:"https://www.predistock.com",
+    year: "2025 | Final Year Project",
+    role: "Predictive Data Processing Pipeline for Inventory Management",
+    description: `Web application designed to predict future inventory levels based on historical data using machine learning algorithms.`,
+    technologies: ["Python", "React", "TailwindCSS", "Linear Regression", "LightGBM", "XGBoost"],
+    images: [
+      require("./assets/projects/predistock2.PNG"),
+      require("./assets/projects/predistock1.PNG"),
+      require("./assets/projects/predistock5.PNG"),
+      require("./assets/projects/predistock3.PNG"),
+      require("./assets/projects/predistock4.PNG"),
+      require("./assets/projects/predistock6.PNG"),
+    ],
   },
   {
     year: "2025 | Academic Projects",
     role: "Bank Transfer Monitoring",
     description: `Web application for monitoring bank transactions.`,
     technologies: ["PHP", "Laravel", "MySQL"],
+    images: [
+      require("./assets/projects/photo1.jpg"),
+      require("./assets/projects/photo2.jpg"),
+      require("./assets/projects/photo3.jpg"),
+    ],
   },
   {
     year: "",
     role: "Crowdfunding Platform",
     description: `Web application for crowdfunding.`,
     technologies: ["Java", "Hibernate", "PostgreSQL"],
+    images: [
+      require("./assets/projects/photo1.jpg"),
+      require("./assets/projects/photo2.jpg"),
+      require("./assets/projects/photo3.jpg"),
+    ],
   },
   {
     year: "",
