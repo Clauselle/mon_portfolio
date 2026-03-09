@@ -61,7 +61,7 @@ const Experience = () => {
                                 className="ml-20 rounded px-4 py-2 text-neutral-900 bg-gradient-to-r from-pink-400 to-purple-500 transition-all duration-300 hover:from-pink-500 hover:to-purple-600 hover:shadow-xl hover:shadow-pink-500/40 hover:scale-105"
                                 onClick={() => openPopup(experience.images)}
                             >
-                                View project
+                                Preview
                             </button>
                         </div>
                     </div>
